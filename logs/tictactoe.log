@@ -1,0 +1,203 @@
+2025-02-22T09:50:03.094+07:00  INFO 20304 --- [main] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 20304 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T09:50:03.097+07:00  INFO 20304 --- [main] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T09:50:06.764+07:00  INFO 20304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T09:50:06.786+07:00  INFO 20304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T09:50:06.786+07:00  INFO 20304 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T09:50:06.908+07:00  INFO 20304 --- [main] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T09:50:06.909+07:00  INFO 20304 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3701 ms
+2025-02-22T09:50:07.829+07:00  INFO 20304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T09:50:07.839+07:00  INFO 20304 --- [main] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 5.529 seconds (process running for 6.088)
+2025-02-22T09:51:47.365+07:00  INFO 20304 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-22T09:51:47.366+07:00  INFO 20304 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-22T09:51:47.368+07:00  INFO 20304 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-02-22T09:52:27.387+07:00  INFO 2388 --- [main] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 2388 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T09:52:27.392+07:00  INFO 2388 --- [main] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T09:52:29.955+07:00  INFO 2388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T09:52:29.973+07:00  INFO 2388 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T09:52:29.973+07:00  INFO 2388 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T09:52:30.140+07:00  INFO 2388 --- [main] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T09:52:30.141+07:00  INFO 2388 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2650 ms
+2025-02-22T09:52:31.297+07:00  INFO 2388 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T09:52:31.309+07:00  INFO 2388 --- [main] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 4.688 seconds (process running for 5.214)
+2025-02-22T09:52:49.305+07:00  INFO 2388 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-22T09:52:49.306+07:00  INFO 2388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-22T09:52:49.310+07:00  INFO 2388 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-02-22T10:15:00.289+07:00  INFO 19252 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 19252 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T10:15:00.297+07:00  INFO 19252 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T10:15:00.450+07:00  INFO 19252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-22T10:15:00.451+07:00  INFO 19252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-22T10:15:02.074+07:00  INFO 19252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T10:15:02.093+07:00  INFO 19252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T10:15:02.094+07:00  INFO 19252 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T10:15:02.176+07:00  INFO 19252 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T10:15:02.177+07:00  INFO 19252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1724 ms
+2025-02-22T10:15:02.843+07:00  INFO 19252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-22T10:15:02.906+07:00  INFO 19252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T10:15:02.920+07:00  INFO 19252 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 3.447 seconds (process running for 4.196)
+2025-02-22T10:28:25.121+07:00  INFO 14132 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 14132 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T10:28:25.130+07:00  INFO 14132 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T10:28:25.235+07:00  INFO 14132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-22T10:28:25.235+07:00  INFO 14132 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-22T10:28:27.321+07:00  INFO 14132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T10:28:27.346+07:00  INFO 14132 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T10:28:27.347+07:00  INFO 14132 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T10:28:27.442+07:00  INFO 14132 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T10:28:27.443+07:00  INFO 14132 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2207 ms
+2025-02-22T10:28:28.173+07:00  INFO 14132 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-22T10:28:28.226+07:00  INFO 14132 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T10:28:28.241+07:00  INFO 14132 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 3.957 seconds (process running for 4.569)
+2025-02-22T10:32:31.170+07:00  INFO 14132 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-22T10:32:31.170+07:00  INFO 14132 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-22T10:32:31.170+07:00  INFO 14132 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-02-22T10:43:35.779+07:00  INFO 10608 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 10608 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T10:43:35.783+07:00  INFO 10608 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T10:43:35.892+07:00  INFO 10608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-22T10:43:35.892+07:00  INFO 10608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-22T10:43:37.573+07:00  INFO 10608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T10:43:37.594+07:00  INFO 10608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T10:43:37.595+07:00  INFO 10608 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T10:43:37.692+07:00  INFO 10608 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T10:43:37.693+07:00  INFO 10608 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1800 ms
+2025-02-22T10:43:38.408+07:00  INFO 10608 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-22T10:43:38.457+07:00  INFO 10608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T10:43:38.475+07:00  INFO 10608 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 3.464 seconds (process running for 4.124)
+2025-02-22T10:43:46.375+07:00  INFO 10608 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-22T10:43:46.375+07:00  INFO 10608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-22T10:43:46.375+07:00  INFO 10608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-02-22T10:44:39.803+07:00  INFO 20088 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 20088 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T10:44:39.803+07:00  INFO 20088 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T10:44:39.913+07:00  INFO 20088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-22T10:44:39.913+07:00  INFO 20088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-22T10:44:41.782+07:00  INFO 20088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T10:44:41.819+07:00  INFO 20088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T10:44:41.820+07:00  INFO 20088 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T10:44:41.908+07:00  INFO 20088 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T10:44:41.908+07:00  INFO 20088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1995 ms
+2025-02-22T10:44:42.514+07:00  INFO 20088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-22T10:44:42.547+07:00  INFO 20088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T10:44:42.563+07:00  INFO 20088 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 3.505 seconds (process running for 4.144)
+2025-02-22T10:44:42.754+07:00  INFO 20088 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-22T10:44:42.755+07:00  INFO 20088 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-22T10:44:42.756+07:00  INFO 20088 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-02-22T10:54:32.822+07:00  INFO 23048 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 23048 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T10:54:32.850+07:00  INFO 23048 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T10:54:32.950+07:00  INFO 23048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-22T10:54:32.950+07:00  INFO 23048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-22T10:54:35.031+07:00  INFO 23048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T10:54:35.066+07:00  INFO 23048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T10:54:35.067+07:00  INFO 23048 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T10:54:35.180+07:00  INFO 23048 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T10:54:35.181+07:00  INFO 23048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2230 ms
+2025-02-22T10:54:35.935+07:00  INFO 23048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-22T10:54:35.995+07:00  INFO 23048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T10:54:36.016+07:00  INFO 23048 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 3.99 seconds (process running for 4.932)
+2025-02-22T10:54:52.362+07:00  INFO 4168 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 4168 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T10:54:52.366+07:00  INFO 4168 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T10:54:52.469+07:00  INFO 4168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-22T10:54:52.470+07:00  INFO 4168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-22T10:54:54.496+07:00  INFO 4168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T10:54:54.517+07:00  INFO 4168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T10:54:54.518+07:00  INFO 4168 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T10:54:54.594+07:00  INFO 4168 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T10:54:54.594+07:00  INFO 4168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2123 ms
+2025-02-22T10:54:55.337+07:00  INFO 4168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-22T10:54:55.399+07:00  INFO 4168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T10:54:55.416+07:00  INFO 4168 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 3.847 seconds (process running for 4.59)
+2025-02-22T10:54:59.594+07:00  INFO 4168 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-22T10:54:59.594+07:00  INFO 4168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-22T10:54:59.594+07:00  INFO 4168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-02-22T10:55:01.738+07:00  INFO 4168 --- [http-nio-8080-exec-4] c.a.g.t.controller.GameController        : Making move at row: 0, col: 0
+2025-02-22T10:55:04.419+07:00  INFO 4168 --- [http-nio-8080-exec-5] c.a.g.t.controller.GameController        : Making move at row: 1, col: 1
+2025-02-22T10:55:05.671+07:00  INFO 4168 --- [http-nio-8080-exec-6] c.a.g.t.controller.GameController        : Making move at row: 2, col: 2
+2025-02-22T10:55:19.221+07:00  INFO 4168 --- [http-nio-8080-exec-8] c.a.g.t.controller.GameController        : Making move at row: 0, col: 0
+2025-02-22T10:55:20.025+07:00  INFO 4168 --- [http-nio-8080-exec-9] c.a.g.t.controller.GameController        : Making move at row: 1, col: 1
+2025-02-22T10:55:20.719+07:00  INFO 4168 --- [http-nio-8080-exec-10] c.a.g.t.controller.GameController        : Making move at row: 2, col: 2
+2025-02-22T10:55:21.240+07:00  INFO 4168 --- [http-nio-8080-exec-1] c.a.g.t.controller.GameController        : Making move at row: 2, col: 3
+2025-02-22T10:55:21.754+07:00  INFO 4168 --- [http-nio-8080-exec-2] c.a.g.t.controller.GameController        : Making move at row: 3, col: 3
+2025-02-22T10:55:22.186+07:00  INFO 4168 --- [http-nio-8080-exec-3] c.a.g.t.controller.GameController        : Making move at row: 3, col: 1
+2025-02-22T10:55:22.679+07:00  INFO 4168 --- [http-nio-8080-exec-4] c.a.g.t.controller.GameController        : Making move at row: 3, col: 0
+2025-02-22T10:55:22.931+07:00  INFO 4168 --- [http-nio-8080-exec-5] c.a.g.t.controller.GameController        : Making move at row: 2, col: 1
+2025-02-22T10:55:23.117+07:00  INFO 4168 --- [http-nio-8080-exec-6] c.a.g.t.controller.GameController        : Making move at row: 1, col: 1
+2025-02-22T10:55:23.303+07:00  INFO 4168 --- [http-nio-8080-exec-7] c.a.g.t.controller.GameController        : Making move at row: 0, col: 2
+2025-02-22T10:55:23.499+07:00  INFO 4168 --- [http-nio-8080-exec-8] c.a.g.t.controller.GameController        : Making move at row: 0, col: 3
+2025-02-22T10:55:37.574+07:00  INFO 4168 --- [http-nio-8080-exec-10] c.a.g.t.controller.GameController        : Making move at row: 0, col: 0
+2025-02-22T10:55:38.296+07:00  INFO 4168 --- [http-nio-8080-exec-1] c.a.g.t.controller.GameController        : Making move at row: 1, col: 1
+2025-02-22T10:55:38.744+07:00  INFO 4168 --- [http-nio-8080-exec-2] c.a.g.t.controller.GameController        : Making move at row: 1, col: 2
+2025-02-22T10:55:39.453+07:00  INFO 4168 --- [http-nio-8080-exec-3] c.a.g.t.controller.GameController        : Making move at row: 1, col: 4
+2025-02-22T10:55:40.248+07:00  INFO 4168 --- [http-nio-8080-exec-4] c.a.g.t.controller.GameController        : Making move at row: 2, col: 3
+2025-02-22T10:55:40.784+07:00  INFO 4168 --- [http-nio-8080-exec-5] c.a.g.t.controller.GameController        : Making move at row: 3, col: 2
+2025-02-22T10:55:41.505+07:00  INFO 4168 --- [http-nio-8080-exec-6] c.a.g.t.controller.GameController        : Making move at row: 3, col: 3
+2025-02-22T10:57:10.444+07:00  INFO 4168 --- [http-nio-8080-exec-1] c.a.g.t.controller.GameController        : Making move at row: 1, col: 1
+2025-02-22T10:57:11.022+07:00  INFO 4168 --- [http-nio-8080-exec-2] c.a.g.t.controller.GameController        : Making move at row: 0, col: 1
+2025-02-22T10:57:12.031+07:00  INFO 4168 --- [http-nio-8080-exec-3] c.a.g.t.controller.GameController        : Making move at row: 2, col: 2
+2025-02-22T10:57:14.818+07:00  INFO 4168 --- [http-nio-8080-exec-4] c.a.g.t.controller.GameController        : Making move at row: 0, col: 0
+2025-02-22T10:57:15.646+07:00  INFO 4168 --- [http-nio-8080-exec-5] c.a.g.t.controller.GameController        : Making move at row: 1, col: 0
+2025-02-22T10:57:17.085+07:00  INFO 4168 --- [http-nio-8080-exec-6] c.a.g.t.controller.GameController        : Making move at row: 1, col: 2
+2025-02-22T10:57:17.942+07:00  INFO 4168 --- [http-nio-8080-exec-7] c.a.g.t.controller.GameController        : Making move at row: 0, col: 2
+2025-02-22T10:57:19.616+07:00  INFO 4168 --- [http-nio-8080-exec-8] c.a.g.t.controller.GameController        : Making move at row: 2, col: 0
+2025-02-22T10:57:20.342+07:00  INFO 4168 --- [http-nio-8080-exec-9] c.a.g.t.controller.GameController        : Making move at row: 2, col: 1
+2025-02-22T11:03:06.220+07:00  INFO 4168 --- [http-nio-8080-exec-2] c.a.g.t.controller.GameController        : Making move at row: 0, col: 2
+2025-02-22T11:03:06.746+07:00  INFO 4168 --- [http-nio-8080-exec-3] c.a.g.t.controller.GameController        : Making move at row: 1, col: 1
+2025-02-22T11:03:07.345+07:00  INFO 4168 --- [http-nio-8080-exec-4] c.a.g.t.controller.GameController        : Making move at row: 1, col: 2
+2025-02-22T11:03:07.897+07:00  INFO 4168 --- [http-nio-8080-exec-5] c.a.g.t.controller.GameController        : Making move at row: 2, col: 2
+2025-02-22T11:03:08.492+07:00  INFO 4168 --- [http-nio-8080-exec-6] c.a.g.t.controller.GameController        : Making move at row: 2, col: 1
+2025-02-22T11:03:10.464+07:00  INFO 4168 --- [http-nio-8080-exec-7] c.a.g.t.controller.GameController        : Making move at row: 0, col: 0
+2025-02-22T11:03:13.894+07:00  INFO 4168 --- [http-nio-8080-exec-8] c.a.g.t.controller.GameController        : Making move at row: 1, col: 0
+2025-02-22T11:03:14.854+07:00  INFO 4168 --- [http-nio-8080-exec-9] c.a.g.t.controller.GameController        : Making move at row: 1, col: 0
+2025-02-22T11:03:15.651+07:00  INFO 4168 --- [http-nio-8080-exec-10] c.a.g.t.controller.GameController        : Making move at row: 0, col: 1
+2025-02-22T11:03:18.032+07:00  INFO 4168 --- [http-nio-8080-exec-1] c.a.g.t.controller.GameController        : Making move at row: 0, col: 1
+2025-02-22T11:03:19.850+07:00  INFO 4168 --- [http-nio-8080-exec-2] c.a.g.t.controller.GameController        : Making move at row: 1, col: 0
+2025-02-22T11:03:20.535+07:00  INFO 4168 --- [http-nio-8080-exec-3] c.a.g.t.controller.GameController        : Making move at row: 1, col: 0
+2025-02-22T11:04:01.998+07:00  INFO 4168 --- [http-nio-8080-exec-5] c.a.g.t.controller.GameController        : Making move at row: 0, col: 2
+2025-02-22T11:04:05.583+07:00  INFO 4168 --- [http-nio-8080-exec-6] c.a.g.t.controller.GameController        : Making move at row: 1, col: 2
+2025-02-22T11:04:08.629+07:00  INFO 4168 --- [http-nio-8080-exec-7] c.a.g.t.controller.GameController        : Making move at row: 1, col: 1
+2025-02-22T11:04:13.162+07:00  INFO 4168 --- [http-nio-8080-exec-8] c.a.g.t.controller.GameController        : Making move at row: 2, col: 0
+2025-02-22T11:04:15.747+07:00  INFO 4168 --- [http-nio-8080-exec-9] c.a.g.t.controller.GameController        : Making move at row: 2, col: 1
+2025-02-22T11:04:21.200+07:00  INFO 4168 --- [http-nio-8080-exec-10] c.a.g.t.controller.GameController        : Making move at row: 0, col: 0
+2025-02-22T11:04:24.583+07:00  INFO 4168 --- [http-nio-8080-exec-2] c.a.g.t.controller.GameController        : Making move at row: 1, col: 0
+2025-02-22T11:04:31.704+07:00  INFO 4168 --- [http-nio-8080-exec-3] c.a.g.t.controller.GameController        : Making move at row: 0, col: 1
+2025-02-22T11:04:36.466+07:00  INFO 4168 --- [http-nio-8080-exec-4] c.a.g.t.controller.GameController        : Making move at row: 2, col: 2
+2025-02-22T11:12:25.745+07:00  INFO 5936 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 5936 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T11:12:25.747+07:00  INFO 5936 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T11:12:25.838+07:00  INFO 5936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-22T11:12:25.838+07:00  INFO 5936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-22T11:12:27.810+07:00  INFO 5936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T11:12:27.841+07:00  INFO 5936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T11:12:27.841+07:00  INFO 5936 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T11:12:27.922+07:00  INFO 5936 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T11:12:27.922+07:00  INFO 5936 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2083 ms
+2025-02-22T11:12:28.751+07:00  INFO 5936 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-22T11:12:28.812+07:00  INFO 5936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T11:12:28.831+07:00  INFO 5936 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 3.864 seconds (process running for 4.462)
+2025-02-22T11:12:40.384+07:00  INFO 5936 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-22T11:12:40.384+07:00  INFO 5936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-22T11:12:40.384+07:00  INFO 5936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-02-22T11:12:48.324+07:00  INFO 5936 --- [http-nio-8080-exec-6] c.a.g.t.controller.GameController        : Making move at row: 0, col: 1
+2025-02-22T11:12:49.225+07:00  INFO 5936 --- [http-nio-8080-exec-7] c.a.g.t.controller.GameController        : Making move at row: 1, col: 1
+2025-02-22T11:12:49.757+07:00  INFO 5936 --- [http-nio-8080-exec-8] c.a.g.t.controller.GameController        : Making move at row: 2, col: 0
+2025-02-22T11:12:51.437+07:00  INFO 5936 --- [http-nio-8080-exec-9] c.a.g.t.controller.GameController        : Making move at row: 0, col: 2
+2025-02-22T11:12:54.410+07:00  INFO 5936 --- [http-nio-8080-exec-10] c.a.g.t.controller.GameController        : Making move at row: 0, col: 0
+2025-02-22T11:12:56.329+07:00  INFO 5936 --- [http-nio-8080-exec-1] c.a.g.t.controller.GameController        : Making move at row: 1, col: 2
+2025-02-22T11:12:57.032+07:00  INFO 5936 --- [http-nio-8080-exec-2] c.a.g.t.controller.GameController        : Making move at row: 1, col: 0
+2025-02-22T11:12:58.022+07:00  INFO 5936 --- [http-nio-8080-exec-3] c.a.g.t.controller.GameController        : Making move at row: 2, col: 2
+2025-02-22T11:12:59.264+07:00  INFO 5936 --- [http-nio-8080-exec-4] c.a.g.t.controller.GameController        : Making move at row: 2, col: 1
+2025-02-22T11:13:00.134+07:00  INFO 5936 --- [http-nio-8080-exec-5] c.a.g.t.controller.GameController        : Making move at row: 3, col: 2
+2025-02-22T11:13:47.864+07:00  INFO 5936 --- [http-nio-8080-exec-8] c.a.g.t.controller.GameController        : Making move at row: 0, col: 1
+2025-02-22T11:13:52.962+07:00  INFO 5936 --- [http-nio-8080-exec-9] c.a.g.t.controller.GameController        : Making move at row: 1, col: 0
+2025-02-22T11:13:58.275+07:00  INFO 5936 --- [http-nio-8080-exec-10] c.a.g.t.controller.GameController        : Making move at row: 2, col: 0
+2025-02-22T11:13:58.850+07:00  INFO 5936 --- [http-nio-8080-exec-1] c.a.g.t.controller.GameController        : Making move at row: 3, col: 0
+2025-02-22T11:14:18.599+07:00  INFO 5936 --- [http-nio-8080-exec-5] c.a.g.t.controller.GameController        : Making move at row: 0, col: 0
+2025-02-22T11:14:19.457+07:00  INFO 5936 --- [http-nio-8080-exec-6] c.a.g.t.controller.GameController        : Making move at row: 1, col: 0
+2025-02-22T11:14:20.333+07:00  INFO 5936 --- [http-nio-8080-exec-7] c.a.g.t.controller.GameController        : Making move at row: 0, col: 1
+2025-02-22T11:31:13.408+07:00  INFO 18168 --- [main] c.a.g.t.controller.WebControllerTest     : Starting WebControllerTest using Java 17.0.8 with PID 18168 (started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T11:31:13.409+07:00  INFO 18168 --- [main] c.a.g.t.controller.WebControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T11:31:15.049+07:00  INFO 18168 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-02-22T11:31:15.050+07:00  INFO 18168 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-02-22T11:31:15.052+07:00  INFO 18168 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-02-22T11:31:15.103+07:00  INFO 18168 --- [main] c.a.g.t.controller.WebControllerTest     : Started WebControllerTest in 2.405 seconds (process running for 3.866)
+2025-02-22T11:39:43.034+07:00  INFO 6908 --- [main] c.a.g.t.controller.WebControllerTest     : Starting WebControllerTest using Java 17.0.8 with PID 6908 (started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T11:39:43.035+07:00  INFO 6908 --- [main] c.a.g.t.controller.WebControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T11:39:44.713+07:00  INFO 6908 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-02-22T11:39:44.713+07:00  INFO 6908 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-02-22T11:39:44.715+07:00  INFO 6908 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-02-22T11:39:44.773+07:00  INFO 6908 --- [main] c.a.g.t.controller.WebControllerTest     : Started WebControllerTest in 2.43 seconds (process running for 3.867)

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<div class="container">
+    <h1>Tic Tac Toe Game</h1>
+    <div>
+        <label for="boardSize">Board Size:</label>
+        <input type="number" id="boardSize" min="3" max="10" value="3">
+        <button onclick="startGame()">Start New Game</button>
+    </div>
+    <div id="error" class="error"></div>
+    <div id="gameBoard" class="board"></div>
+    <div id="status" class="status"></div>
+</div>
+
+<script>
+        const BASE_URL = '/tictactoe/api/game';
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.style.display = 'block';
+            errorDiv.textContent = message;
+            setTimeout(() => {
+                errorDiv.style.display = 'none';
+            }, 3000);
+        }
+
+        async function fetchWithErrorHandling(url, options = {}) {
+            try {
+                const response = await fetch(url, {
+                    ...options,
+                    headers: {
+                        'Content-Type': 'application/json',
+                        ...options.headers
+                    }
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.message || 'An error occurred');
+                }
+
+                return data;
+            } catch (error) {
+                showError(error.message);
+                throw error;
+            }
+        }
+
+        async function startGame() {
+            const size = document.getElementById('boardSize').value;
+            try {
+                const gameState = await fetchWithErrorHandling(
+                    `${BASE_URL}/start?size=${size}`,
+                    { method: 'POST' }
+                );
+                updateBoardDisplay(gameState);
+            } catch (error) {
+                console.error('Start game error:', error);
+            }
+        }
+
+        async function makeMove(row, col) {
+            try {
+                const gameState = await fetchWithErrorHandling(
+                    `${BASE_URL}/move?row=${row}&col=${col}`,
+                    { method: 'POST' }
+                );
+                updateBoardDisplay(gameState);
+            } catch (error) {
+                console.error('Make move error:', error);
+            }
+        }
+
+        function updateBoardDisplay(gameState) {
+            const board = document.getElementById('gameBoard');
+            const status = document.getElementById('status');
+
+            board.style.gridTemplateColumns = `repeat(${gameState.size}, 60px)`;
+            board.innerHTML = '';
+
+            for (let i = 0; i < gameState.size; i++) {
+                for (let j = 0; j < gameState.size; j++) {
+                    const cell = document.createElement('div');
+                    cell.className = 'cell';
+                    //cell.textContent = gameState.board[i][j];
+                    const content = gameState.board[i][j];
+                    if (content === 'EMPTY') {
+                        cell.className += ' empty';
+                        cell.textContent = ''; // Kosongkan cell
+                    } else {
+                        cell.textContent = content;
+                    }
+                    cell.onclick = () => makeMove(i, j);
+                    board.appendChild(cell);
+                }
+            }
+
+            if (gameState.gameState === 'WIN') {
+                status.textContent = `Player ${gameState.currentPlayer === 'X' ? 'O' : 'X'} wins!`;
+            } else if (gameState.gameState === 'DRAW') {
+                status.textContent = 'Game is a draw!';
+            } else {
+                status.textContent = `Current player: ${gameState.currentPlayer}`;
+            }
+        }
+
+        // Start game when page loads
+        document.addEventListener('DOMContentLoaded', startGame);
+    </script>
+</body>
+</html>
