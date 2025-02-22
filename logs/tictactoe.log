@@ -201,3 +201,18 @@
 2025-02-22T11:39:44.713+07:00  INFO 6908 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2025-02-22T11:39:44.715+07:00  INFO 6908 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 2025-02-22T11:39:44.773+07:00  INFO 6908 --- [main] c.a.g.t.controller.WebControllerTest     : Started WebControllerTest in 2.43 seconds (process running for 3.867)
+2025-02-22T11:40:12.901+07:00  INFO 12976 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Starting TicTacToeApplication using Java 17.0.8 with PID 12976 (E:\com.aidil.game.tictactoe\target\classes started by Aidil Adam in E:\com.aidil.game.tictactoe)
+2025-02-22T11:40:12.904+07:00  INFO 12976 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-02-22T11:40:12.997+07:00  INFO 12976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-22T11:40:12.997+07:00  INFO 12976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-22T11:40:14.607+07:00  INFO 12976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-22T11:40:14.629+07:00  INFO 12976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-22T11:40:14.630+07:00  INFO 12976 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-02-22T11:40:14.716+07:00  INFO 12976 --- [restartedMain] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring embedded WebApplicationContext
+2025-02-22T11:40:14.717+07:00  INFO 12976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1720 ms
+2025-02-22T11:40:15.376+07:00  INFO 12976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-22T11:40:15.423+07:00  INFO 12976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/tictactoe'
+2025-02-22T11:40:15.439+07:00  INFO 12976 --- [restartedMain] c.a.game.tictactoe.TicTacToeApplication  : Started TicTacToeApplication in 3.208 seconds (process running for 3.784)
+2025-02-22T11:40:21.025+07:00  INFO 12976 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/tictactoe]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-22T11:40:21.025+07:00  INFO 12976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-22T11:40:21.027+07:00  INFO 12976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

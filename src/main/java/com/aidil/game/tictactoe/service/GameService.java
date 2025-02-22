@@ -19,7 +19,7 @@ public class GameService {
         return instance;
     }
 
-    // synchronized untuk thread safety
+    // synchronized for thread safety
     public synchronized void initializeGame(int size) {
         this.gameBoard = new GameBoard(size);
     }
